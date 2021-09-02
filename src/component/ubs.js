@@ -527,29 +527,30 @@ class Ubs extends Component {
                         </List.Item>
                     </List>
                 </WingBlank>
-                <WhiteSpace size="lg"/>
 
                 <WingBlank size="lg">
-                    <div style={{borderRadius:"5px",background:"#2b2c2b",padding:"6px 12px"}}>
-                        <Flex>
-                            <Flex.Item style={{flex:2}}>
-                                <span className="column-title">Yield: </span><span className="column-value">{decimals(yieldV2.amount,18,6)}</span> URTR
-                            </Flex.Item>
-                            <Flex.Item style={{flex:1}}>
-                                <Button disabled={new BigNumber(yieldV2.amount).toNumber() ===0
-                                || Date.now()<expV2
-                                } onClick={()=>{
-                                    abi.withdrawV2(this.state.account.pk,this.state.account.mainPKr).catch(e=>{
-                                        const err = typeof e =="string"?e:e.message;
-                                        Toast.fail(err)
-                                    })
-                                }}>{
-                                    Date.now()<expV2 ?
-                                        <CountTimeDown endTime={expV2}/> : language.e().account.trigger
-                                }</Button>
-                            </Flex.Item>
-                        </Flex>
-                    </div>
+                    <List renderHeader={<span className="title" style={{fontWeight:"600"}}>{language.e().account.recommend.yields.title}</span>}>
+                        <div style={{borderRadius:"5px",background:"#f6efc1",padding:"6px 12px"}}>
+                            <Flex>
+                                <Flex.Item style={{flex:2}}>
+                                    <span className="column-title" style={{fontWeight:"600",color:"#0f0c08"}}>UCON </span><span className="column-value" style={{fontWeight:"600",color:"#4f3925"}}>{decimals(yieldV2.amount,18,6)}</span>
+                                </Flex.Item>
+                                <Flex.Item style={{flex:1}}>
+                                    <Button disabled={new BigNumber(yieldV2.amount).toNumber() ===0
+                                    || Date.now()<expV2
+                                    } onClick={()=>{
+                                        abi.withdrawV2(this.state.account.pk,this.state.account.mainPKr).catch(e=>{
+                                            const err = typeof e =="string"?e:e.message;
+                                            Toast.fail(err)
+                                        })
+                                    }}>{
+                                        Date.now()<expV2 ?
+                                            <CountTimeDown endTime={expV2}/> : language.e().account.recommend.yields.harvest
+                                    }</Button>
+                                </Flex.Item>
+                            </Flex>
+                        </div>
+                    </List>
                 </WingBlank>
 
                 <WingBlank size="lg">

@@ -83,7 +83,11 @@ class Language {
                 profit: "Share profit",
                 achieveDetail: "Achievement",
                 state: "Can Gain",
-                stateValues: ["Yes", "No"]
+                stateValues: ["Yes", "No"],
+                yields:{
+                    title:"Yield",
+                    harvest:"Harvest"
+                }
             }
         },
         rule: `
@@ -167,7 +171,11 @@ Developer philosophy:
                 profit: "分享收益",
                 achieveDetail: "有效业绩",
                 state: "状态",
-                stateValues: ["可拿", "不可拿"]
+                stateValues: ["可拿", "不可拿"],
+                yields:{
+                    title:"收成",
+                    harvest:"收取"
+                }
             }
         },
         rule: `
@@ -259,7 +267,11 @@ UBS合约玩法规则：
                 count: "ピープル",
                 achieveDetail: "私の業績",
                 state: "状態",
-                stateValues: ["Yes", "No"]
+                stateValues: ["Yes", "No"],
+                yields:{
+                    title:"利回り",
+                    harvest:"収穫"
+                }
             }
         },
         rule: `
@@ -360,7 +372,11 @@ UBSゲーム契約ルール：
                 count: "Количество людей",
                 achieveDetail: "Мое достижение",
                 state: "Положение дел",
-                stateValues: ["Yes", "No"]
+                stateValues: ["Yes", "No"],
+                yields:{
+                    title:"Даходнасць",
+                    harvest:"Ураджай"
+                }
             }
         },
 
@@ -460,7 +476,11 @@ UBSゲーム契約ルール：
                 count: "사람",
                 achieveDetail: "나의 업적",
                 state: "지위",
-                stateValues: ["Yes", "No"]
+                stateValues: ["Yes", "No"],
+                yields:{
+                    title:"수율",
+                    harvest:"수확"
+                }
             }
         },
         rule: `

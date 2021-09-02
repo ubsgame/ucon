@@ -9,7 +9,11 @@ const config = {
     github: "https://github.com/ubsgame/ubs",
     author: "ubsgame",
     url: document.location.href,
-    logo: document.location.protocol + '//' + document.location.host + '/ubs/logo.png'
+    logo: document.location.protocol + '//' + document.location.host + '/ubs/logo.png',
+    barColor:"#08080f",
+    navColor:"#08080f",
+    barMode:"dark",
+    navMode:"light"
 }
 
 const abi = [{
