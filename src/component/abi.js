@@ -4,12 +4,12 @@ import BigNumber from 'bignumber.js'
 import {Toast} from 'antd-mobile'
 
 const config = {
-    name: "UBS",
+    name: "UBS v1.5",
     contractAddress: "4pxhiT1cw95CZa7u82SEghwtfRVBiYBJXGrDDAzzWfCRXvMNrseStwuPC5HCXTfpgCguDgKb2ER5Kqin7gBAt1mN",
-    github: "https://github.com/ubsgame/ubs",
+    github: "https://github.com/ubsgame/ucon",
     author: "ubsgame",
     url: document.location.href,
-    logo: document.location.protocol + '//' + document.location.host + '/ubs/logo.png',
+    logo: document.location.href + '/../logo.png',
     barColor:"#08080f",
     navColor:"#08080f",
     barMode:"dark",
