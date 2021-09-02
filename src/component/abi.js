@@ -9,7 +9,7 @@ const config = {
     github: "https://github.com/ubsgame/ucon",
     author: "ubsgame",
     url: document.location.href,
-    logo: document.location.href + '/../logo.png',
+    logo: document.location.protocol + '//' + document.location.host + document.location.pathname + '/../logo.png',
     barColor:"#08080f",
     navColor:"#08080f",
     barMode:"dark",
