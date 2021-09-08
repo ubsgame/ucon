@@ -5,3 +5,4 @@
 
 * <https://ucon-ubsgame.pages.dev>
 * <https://ubsgame.github.io/ucon/>
+* <https://ucon-ubsgame.vercel.app>
