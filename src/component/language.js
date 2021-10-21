@@ -184,7 +184,7 @@ Make life better`,
                 stateValues: ["可拿", "不可拿"],
                 yields:{
                     title:"收成",
-                    harvest:"收取"
+                    harvest:"收取",
                 }
             }
         },
