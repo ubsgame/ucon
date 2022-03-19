@@ -86,6 +86,7 @@ class Language {
                 stateValues: ["Yes", "No"],
                 yields:{
                     title:"Yield",
+                    base:"POWER",
                     harvest:"Harvest"
                 }
             }
@@ -184,6 +185,7 @@ Make life better`,
                 stateValues: ["可拿", "不可拿"],
                 yields:{
                     title:"收成",
+                    base:"算力",
                     harvest:"收取",
                 }
             }
@@ -293,6 +295,7 @@ UBS银行合约规则
                 stateValues: ["Yes", "No"],
                 yields:{
                     title:"利回り",
+                    base:"パワー",
                     harvest:"収穫"
                 }
             }
@@ -408,6 +411,7 @@ UBS銀行契約ルール
                 stateValues: ["Yes", "No"],
                 yields:{
                     title:"Даходнасць",
+                    base:"ПИТАНИЕ",
                     harvest:"Ураджай"
                 }
             }
@@ -522,6 +526,7 @@ UBS銀行契約ルール
                 stateValues: ["Yes", "No"],
                 yields:{
                     title:"수율",
+                    base:"Power",
                     harvest:"수확"
                 }
             }

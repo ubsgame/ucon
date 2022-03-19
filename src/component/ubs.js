@@ -560,7 +560,7 @@ class Ubs extends Component {
                         <div style={{borderRadius:"5px",background:"#f6efc1",padding:"6px 12px"}}>
                             <Flex>
                                 <Flex.Item style={{flex:2,paddingTop:10,paddingBottom:4}}>
-                                    <span className="column-title" style={{fontWeight:"600",color:"#0f0c08"}}> BASE </span><span className="column-value" style={{fontWeight:"600",color:"#4f3925"}}>{decimals(yieldV2.remained,18,6)}</span>
+                                    <span className="column-title" style={{fontWeight:"600",color:"#0f0c08"}}> {language.e().account.recommend.yields.base} </span><span className="column-value" style={{fontWeight:"600",color:"#4f3925"}}>{decimals(yieldV2.remained,18,6)}</span>
                                 </Flex.Item>
                             </Flex>
                             <Flex>
