@@ -64,10 +64,27 @@ class Ubs extends Component {
         });
     }
 
+    initAlert() {
+        Modal.alert(
+            <span>{language.e().account.v2alert}</span>,
+            <div
+                className="contractRule"
+                style={{height: '40vh'}}
+            >
+                <pre style={{'whiteSpace': 'pre-wrap'}}>{language.e().v2alert}</pre>
+                <br/>
+                <br/>
+            </div>,
+            [
+                {text: <span>OK</span>}]
+        )
+    }
+
     componentDidMount() {
         let self = this;
         abi.OnInit
             .then(() => {
+                this.initAlert()
                 abi.accountList(function (accounts) {
                     if(accounts && accounts.length>0){
                         let account = accounts[0];
@@ -401,16 +418,19 @@ class Ubs extends Component {
 
 
                                         </span>
-                    <span style={{float: "right", padding: "15px",}} onClick={() => {
-                        Modal.operation([
-                            {text: <span>简体中文</span>, onPress: () => this.setLang('zh_CN')},
-                            {text: <span>English</span>, onPress: () => this.setLang('en_US')},
-                            {text: <span>日本語</span>, onPress: () => this.setLang('ja_JP')},
-                            {text: <span>한국어</span>, onPress: () => this.setLang('ko_KR')},
-                            {text: <span>русский</span>, onPress: () => this.setLang('be_BY')}
-                        ])
-                    }}>
-                         <span style={{color: "#fff"}}>{this.state.lang}</span></span>
+                    <span style={{float: "right", padding: "15px",}} >
+                        <span style={{color: "#fe0"}}>V1 </span>|<span style={{color: "#fff"}} onClick={() => {
+                            this.initAlert()
+                        }}> V2</span><span> </span>
+                         <span style={{color: "#fff"}} onClick={() => {
+                             Modal.operation([
+                                 {text: <span>简体中文</span>, onPress: () => this.setLang('zh_CN')},
+                                 {text: <span>English</span>, onPress: () => this.setLang('en_US')},
+                                 {text: <span>日本語</span>, onPress: () => this.setLang('ja_JP')},
+                                 {text: <span>한국어</span>, onPress: () => this.setLang('ko_KR')},
+                                 {text: <span>русский</span>, onPress: () => this.setLang('be_BY')}
+                             ])
+                         }}> | {this.state.lang}</span></span>
                 </div>
                 <div className="header">
                     {/*<ClickNHold*/}

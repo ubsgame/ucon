@@ -54,6 +54,7 @@ class Language {
             returnValue: " Total Fixed Income ",
             totalAynamicReward: " Total Referral Income",
             rule: "Contract Rule",
+            v2alert: "UBS V2 ANNOUNCEMENT",
 
             modal: {
                 title: "Invest",
@@ -91,6 +92,20 @@ class Language {
                 }
             }
         },
+        v2alert:`
+It is a great honor to be with you for more than 2 years in the development of UBS. At this moment, we are very excited to share with you
+
+- From the UBS ecological development route, a new and independent UBS V2 version is about to be launched. V2 will form a perfect DeFi ecological closed loop with V1.
+
+- V2 includes a variety of innovative DeFi technologies, such as mixed tokens that can unify power, bonus pool reward empowerment, and U medal NFT, etc.
+
+- V2 is already in the inner testing stage and is expected to be officially launched in July 2022. The current UBS will be defined as the UBS V1 version When V2 is launched, and the [V1] [V2] version switch button will be added to this interface.
+
+Hope all U fans are happy to mine and have a good day!
+
+For more details about V2, please visit our Medium
+https://medium.com/@YouCoin/the-innovative-and-upgraded-ubank-v2-bd49c4268e47
+`,
         rule: `
 UBS Bank Contract Rules
 
@@ -163,6 +178,7 @@ Make life better`,
             value: "静态收益额度",
             returnValue: "累计静态收益",
             totalAynamicReward: "累计分享收益",
+            v2alert: "UBS V2公告",
             rule: "合约规则",
             modal: {
                 title: "投资",
@@ -190,6 +206,20 @@ Make life better`,
                 }
             }
         },
+        v2alert:`
+非常荣幸与您在UBS生态发展中，一起经历了2年余时间，此刻，我们非常激动与您分享：
+
+- 由UBS生态发展路线，现即将创新推出UBS V2版本，V2将与V1形成完美的DeFi生态闭环
+
+- V2包括了多样化的创新DeFi技术，如混合币种统一算力、分红池赋能、U荣誉勋章NFT等
+
+- UBS V2现已处于内测阶段，预计将于2022年7月正式推出。当V2推出后，现UBS将定义为UBS V1版本，将于本界面增加【V1】【V2】版本切换按键
+
+祝所有U粉们愉快挖矿，享受美好一天！
+
+关于V2更多详细内容，请进入我们的Medium查阅
+https://medium.com/@YouCoin/the-innovative-and-upgraded-ubank-v2-bd49c4268e47
+`,
         rule: `
 UBS银行合约规则
    
@@ -263,6 +293,7 @@ UBS银行合约规则
             value: "固定収入限界",
             returnValue: "累積固定収入",
             totalAynamicReward: " 累積紹介収入",
+            v2alert: "UBS V2 ANNOUNCEMENT",
             rule: "契約ルール",
 
             modal: {
@@ -300,6 +331,20 @@ UBS银行合约规则
                 }
             }
         },
+        v2alert:`
+It is a great honor to be with you for more than 2 years in the development of UBS. At this moment, we are very excited to share with you
+
+- From the UBS ecological development route, a new and independent UBS V2 version is about to be launched. V2 will form a perfect DeFi ecological closed loop with V1.
+
+- V2 includes a variety of innovative DeFi technologies, such as mixed tokens that can unify power, bonus pool reward empowerment, and U medal NFT, etc.
+
+- V2 is already in the inner testing stage and is expected to be officially launched in July 2022. The current UBS will be defined as the UBS V1 version When V2 is launched, and the [V1] [V2] version switch button will be added to this interface.
+
+Hope all U fans are happy to mine and have a good day!
+
+For more details about V2, please visit our Medium
+https://medium.com/@YouCoin/the-innovative-and-upgraded-ubank-v2-bd49c4268e47
+`,
         rule: `
 UBS銀行契約ルール
 
@@ -374,6 +419,7 @@ UBS銀行契約ルール
             value: " Фиксированный лимит дохода ",
             returnValue: " Общий фиксированный доход ",
             totalAynamicReward: " Общий доход рефералов ",
+            v2alert: "UBS V2 ANNOUNCEMENT",
             rule: "Правило договора",
             game: {
                 title: "Фонд защиты [Старт]",
@@ -416,7 +462,20 @@ UBS銀行契約ルール
                 }
             }
         },
+        v2alert:`
+It is a great honor to be with you for more than 2 years in the development of UBS. At this moment, we are very excited to share with you
 
+- From the UBS ecological development route, a new and independent UBS V2 version is about to be launched. V2 will form a perfect DeFi ecological closed loop with V1.
+
+- V2 includes a variety of innovative DeFi technologies, such as mixed tokens that can unify power, bonus pool reward empowerment, and U medal NFT, etc.
+
+- V2 is already in the inner testing stage and is expected to be officially launched in July 2022. The current UBS will be defined as the UBS V1 version When V2 is launched, and the [V1] [V2] version switch button will be added to this interface.
+
+Hope all U fans are happy to mine and have a good day!
+
+For more details about V2, please visit our Medium
+https://medium.com/@YouCoin/the-innovative-and-upgraded-ubank-v2-bd49c4268e47
+`,
         rule: `
 Правила банковского контракта UBS
 
@@ -490,6 +549,7 @@ UBS銀行契約ルール
             value: "고정 수입 한도",
             returnValue: "누적 고정 수입",
             totalAynamicReward: " 누적 추천 소득",
+            v2alert: "UBS V2 ANNOUNCEMENT",
             rule: "계약 규칙",
             game: {
                 title: "보호 기금 [시작]",
@@ -531,6 +591,20 @@ UBS銀行契約ルール
                 }
             }
         },
+        v2alert:`
+It is a great honor to be with you for more than 2 years in the development of UBS. At this moment, we are very excited to share with you
+
+- From the UBS ecological development route, a new and independent UBS V2 version is about to be launched. V2 will form a perfect DeFi ecological closed loop with V1.
+
+- V2 includes a variety of innovative DeFi technologies, such as mixed tokens that can unify power, bonus pool reward empowerment, and U medal NFT, etc.
+
+- V2 is already in the inner testing stage and is expected to be officially launched in July 2022. The current UBS will be defined as the UBS V1 version When V2 is launched, and the [V1] [V2] version switch button will be added to this interface.
+
+Hope all U fans are happy to mine and have a good day!
+
+For more details about V2, please visit our Medium
+https://medium.com/@YouCoin/the-innovative-and-upgraded-ubank-v2-bd49c4268e47
+`,
         rule: `
 UBS 은행 계약 규정
 
