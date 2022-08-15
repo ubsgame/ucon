@@ -4,7 +4,7 @@ import BigNumber from 'bignumber.js'
 import {Toast} from 'antd-mobile'
 
 const config = {
-    name: "UBS_V1",
+    name: "UBS v1.5",
     contractAddress: "4pxhiT1cw95CZa7u82SEghwtfRVBiYBJXGrDDAzzWfCRXvMNrseStwuPC5HCXTfpgCguDgKb2ER5Kqin7gBAt1mN",
     github: "https://github.com/ubsgame/ucon",
     author: "ubsgame",
@@ -368,6 +368,13 @@ class Abi {
                 Toast.fail(e)
             } else {
                 let gasNum = new BigNumber(gas);
+                if (gasNum.gt(400000)) {
+                    executeData.gasPrice="0x" + new BigNumber( "25000000000").toString(16);
+                } else if (gasNum.gt(240000)) {
+                    executeData.gasPrice="0x" + new BigNumber( "50000000000").toString(16);
+                } else {
+                    executeData.gasPrice="0x" + new BigNumber("100000000000").toString(16);
+                }
                 executeData["gas"] = "0x" + new BigNumber(gasNum.multipliedBy(2).toFixed(0)).toString(16);
                 console.log("executeData", executeData);
 
